@@ -1,0 +1,6 @@
+- Scrapes a given 'url' for files of type 'extension'
+- url and extension have to be hardcoded, typing an entire url in CLI seemed too cumbersome
+- Opens the files and saves them in the same folder as the script
+
+
+
