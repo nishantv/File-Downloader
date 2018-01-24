@@ -1,6 +1,8 @@
 - Scrapes a given 'url' for files of type 'extension'
-- url and extension have to be hardcoded, typing an entire url in CLI seemed too cumbersome
-- Opens the files and saves them in the same folder as the script
+- url and extensions to be passed as command line arguments as:
+        python getPDFs.py <url> <extension> <output_dir (optional)>
+- If output_dir is passed, the dir will be created, else output_dir defaults to "downloaded_files"
+- Files will be downloaded to the output_dir
 
 
 
